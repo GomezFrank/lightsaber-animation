@@ -1,0 +1,47 @@
+body {
+    background: #273876;
+    cursor: pointer;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.sable {
+    height: 220px;
+    width: 8px;
+    background: #ffff;
+    border-radius: 5px 5px 0px 0px;
+    transition: .3s;
+    margin-left: 7px;
+    transform-origin: bottom;
+    box-shadow: 0 0 10px red, 0 0 20px red, 0 0 24px red;
+    transform: scale(0);
+}
+
+.handle {
+    height: 100px;
+    width: 30px;
+    top: 37em;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
